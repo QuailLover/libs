@@ -23,7 +23,7 @@ local a, b = {
                     {50, "ModuleScript", {"Dark"}},
                     {52, "ModuleScript", {"Light"}},
                     {51, "ModuleScript", {"Darker"}},
-                    {53, "ModuleScript", {"Rose"}},
+                    {53, "ModuleScript", {"Quail"}},
                     {49, "ModuleScript", {"Aqua"}},
                     {48, "ModuleScript", {"Amethyst"}}
                 }
@@ -5064,7 +5064,7 @@ local aa = {
     end,
     [47] = function()
         local aa, ab, ac, ad, ae = b(47)
-        local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose"}}
+        local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Quail"}}
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah)
             af[aj.Name] = aj
